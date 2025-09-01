@@ -25,7 +25,7 @@ const rateLimiter = async(req,res,next)=>{
     catch(err){
         // res.send("Error: "+err.message);                     // sending a response back to the client (res.send, res.json, res.end, etc.).
         // res.status(429).send("Error: "+err.message);           // 429 Too Many Requests
-        res.status(429).json({Error:err.message}); 
+        res.status(429).json({Error:err.message});
     }
 }
 
