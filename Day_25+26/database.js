@@ -31,7 +31,7 @@ async function main(){
     try{
     // await mongoose.connect("mongodb+srv://rahulkumar789123:zxcvbnm789123@mycodingcluster.ccmttxr.mongodb.net/Instagram")                              // here Instagram is the name of dataBase which is automatically created
         await mongoose.connect(process.env.DB_CONNECT_KEY);
-        console.log("connected");
+        console.log("connected to db");
     }
     catch(err){
         console.log("connection failed" +err.message);
