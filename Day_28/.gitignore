@@ -1,4 +1,4 @@
-.env
+# .env
 node_modules/
 
 # node_modules → ignores any file or folder named node_modules anywhere.
