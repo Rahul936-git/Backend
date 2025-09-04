@@ -1,0 +1,5 @@
+.env
+node_modules/
+
+# node_modules → ignores any file or folder named node_modules anywhere.
+# node_modules/ → explicitly tells Git “this is a folder to ignore.”
